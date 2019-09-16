@@ -13,7 +13,7 @@ RUN yum -y install \
     unzip
 
 # Install longranger.
-RUN wget -O longranger-2.2.2.tar.gz "http://cf.10xgenomics.com/releases/genome/longranger-2.2.2.tar.gz?Expires=1568332868&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cDovL2NmLjEweGdlbm9taWNzLmNvbS9yZWxlYXNlcy9nZW5vbWUvbG9uZ3Jhbmdlci0yLjIuMi50YXIuZ3oiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1NjgzMzI4Njh9fX1dfQ__&Signature=V9JPW80LqpZlJeBedaHPVW9nvwuffUoKgbKW6T095KcoMrp-EdO-AZdyrBV04adU65UlnVsizpOR9hpSylYYyTzfMUooPUpvXTy7QHyRHAMhDFJG3IcQZsjEdc4ksnomQ272vsMGGrd23rBMePeLElY7vHtTzHvlNJZ4aBLxlW-m48YXD9~AzYE-URkNK4pd9Z955Xq5-D-u1XPq-LBuEc0golQrSa670l2uT9SjBIK3uKHliQSUvAVcxjXghefYSKFV~J7CagZqVuCnOcdeCEeabVNbcr4T-fTjTQJRzk5YRMgOt5Wb6HoTc72wqd-1WSG-z1mKq~wgh87Nw8laRA__&Key-Pair-Id=APKAI7S6A5RYOXBWRPDA" && \
+RUN wget -O longranger-2.2.2.tar.gz "http://cf.10xgenomics.com/releases/genome/longranger-2.2.2.tar.gz?Expires=1568663430&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cDovL2NmLjEweGdlbm9taWNzLmNvbS9yZWxlYXNlcy9nZW5vbWUvbG9uZ3Jhbmdlci0yLjIuMi50YXIuZ3oiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1Njg2NjM0MzB9fX1dfQ__&Signature=XrgUF9hkDWPQ-9Z1UE3~9xIpJ2QiMWkJSjiCUDTX6mSzzHotB54TRTxnn1jTa-2uvsUtykuyPauYezj6VNCjUrZgMBxskjbmO4mot9mDLO-MeQdFNB~qbrNnt5R-SZzqjESHPC8NQ5267rhXk6mbvX-lOM38Zl2HTryHsMy4rt9aJPa1nVFDhCMUoXXqZRH6YB5SVMDCLk-pyM-O~6j40OZKWpBxEOCTtg2QaH3ferQLgQYOnrtF09H2qubGrMlkCkEkdtWI2cxEBJ67roAHI2d2ll0VuGMq5cCWO5a1kghEGr0cPYoevjayRqYIfW3wOugZ-A6fPK4Qprr9gGdIRw__&Key-Pair-Id=APKAI7S6A5RYOXBWRPDA" && \
     tar xzf longranger-2.2.2.tar.gz && \
     mv longranger-2.2.2 /opt && \
     export PATH=/opt/longranger-2.2.2/:$PATH

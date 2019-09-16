@@ -5,7 +5,11 @@ RUN apt update -yqq && \
     apt install -yqq \
     wget \
     unzip \
-    alien
+    alien \
+    tmux \
+    vim \
+    less \
+    git
 
 # Install longranger.
 RUN wget -q -O longranger-2.2.2.tar.gz "http://cf.10xgenomics.com/releases/genome/longranger-2.2.2.tar.gz?Expires=1568663430&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cDovL2NmLjEweGdlbm9taWNzLmNvbS9yZWxlYXNlcy9nZW5vbWUvbG9uZ3Jhbmdlci0yLjIuMi50YXIuZ3oiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1Njg2NjM0MzB9fX1dfQ__&Signature=XrgUF9hkDWPQ-9Z1UE3~9xIpJ2QiMWkJSjiCUDTX6mSzzHotB54TRTxnn1jTa-2uvsUtykuyPauYezj6VNCjUrZgMBxskjbmO4mot9mDLO-MeQdFNB~qbrNnt5R-SZzqjESHPC8NQ5267rhXk6mbvX-lOM38Zl2HTryHsMy4rt9aJPa1nVFDhCMUoXXqZRH6YB5SVMDCLk-pyM-O~6j40OZKWpBxEOCTtg2QaH3ferQLgQYOnrtF09H2qubGrMlkCkEkdtWI2cxEBJ67roAHI2d2ll0VuGMq5cCWO5a1kghEGr0cPYoevjayRqYIfW3wOugZ-A6fPK4Qprr9gGdIRw__&Key-Pair-Id=APKAI7S6A5RYOXBWRPDA" && \
